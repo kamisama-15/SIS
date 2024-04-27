@@ -102,11 +102,11 @@ if ($udata && isset($udata['username'])) {
                               <input type="number" value="<?php echo $transaction->rq_contact ?>" class="form-control form-control-sm form-control-border rounded-0" id="rq_contact" name="rq_contact" disabled>
                            </div>
                             <div class="form-group col-md-6">
-                              <label for="rq_type" class="control-label">Receiver's Name</label>
+                              <label for="rq_type" class="control-label">Name of Receiver</label>
                               <input value="<?php echo $transaction->rq_rc_name ?>" type="text" class="form-control form-control-sm form-control-border rounded-0" id="rq_type" name="rq_type" disabled>
                            </div>
                            <div class="form-group col-md-6">
-                              <label for="rq_type" class="control-label">Relationship to the Student</label>
+                              <label for="rq_type" class="control-label">Relationship to Receiver</label>
                               <input value="<?php echo $transaction->rq_type ?>" type="text" class="form-control form-control-sm form-control-border rounded-0" id="rq_type" name="rq_type" disabled>
                            </div>
                         </div>

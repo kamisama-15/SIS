@@ -1,8 +1,5 @@
 <style type='text/css'>
-   /*body, html {
-   margin: 0;
-   padding: 0;
-   }*/
+
    #card-container:{
       background-color: white;
    }
@@ -36,8 +33,8 @@
    .person {
    border-bottom: 2px solid black;
    font-size: 32px;
-   font-style: italic;
-   margin: 20px auto;
+   /*font-style: italic;*/
+   margin: 10px auto;
    width: 400px;
    }
    .reason {
@@ -58,51 +55,51 @@
    }
    .reason .row {
    display: flex;
-   justify-content: center; /* Center the content horizontally */
-   align-items: center; /* Center the content vertically */
+   justify-content: center; 
+   align-items: center; 
    }
    .reason .col {
-   flex: 1; /* Equal width columns */
+   flex: 1; 
    }
    .ribbon {
    position: relative;
-   margin: 20px auto 0; /* Adjusted margin to push the ribbon to the bottom */
+   margin: 20px auto 0; 
    padding: 10px 40px;
    text-align: center;
-   background-color: #E2DFD2; /* Changed to a light #E2DFD2ish color */
-   color: black; /* Changed text color to a slightly darker shade */
-   border-radius: 8px; /* Border radius to round the corners */
-   z-index: 2; /* Ensure the ribbon is above pseudo-elements */
+   background-color: #E2DFD2; 
+   color: black; 
+   border-radius: 8px; 
+   z-index: 2; 
    }
    .ribbon::before,
    .ribbon::after {
    content: '';
    width: 80px;
    height: 100%;
-   background-color: #E2DFD2; /* Changed to a light #E2DFD2ish color */
-   color: #888888; /* Changed text color to a slightly darker shade */
+   background-color: #E2DFD2; 
+   color: #888888; 
    position: absolute;
-   z-index: 1; /* Set a lower z-index to ensure it's behind the ribbon */
-   top: -20px; /* Moved the pseudo-elements to the top */
-   border-radius: 8px; /* Border radius to round the corners */
-   /* Clip ribbon end shape */
+   z-index: 1; 
+   top: -20px; 
+   border-radius: 8px; 
+
    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
-   /* Draw and position the folded ribbon bit */
-   background-image: linear-gradient(45deg, transparent 48%, #E2DFD2 48%), linear-gradient(-45deg, transparent 48%, #E2DFD2 48%); /* Added border to the sideways triangle */
+
+   background-image: linear-gradient(45deg, transparent 48%, #E2DFD2 48%), linear-gradient(-45deg, transparent 48%, #E2DFD2 48%); 
    background-size: 20px 20px;
    background-repeat: no-repeat;
-   background-position: bottom right, bottom left; /* Adjusted position for both triangles */
+   background-position: bottom right, bottom left; 
    }
    .ribbon::before {
    left: -60px;
    }
    .ribbon::after {
    right: -60px;
-   transform: scaleX(-1); /* Flip horizontally */
+   transform: scaleX(-1); 
    }
    .ribbon-container {
-   max-width: 300px; /* Adjust the max-width as needed */
-   margin: 20px auto; /* Center the container horizontally and provide spacing */
+   max-width: 300px; 
+   margin: 20px auto; 
    }
 </style>
 <div class="content-wrapper">
@@ -127,13 +124,13 @@
                   <h4 class="text-two my-0">NATIONAL HIGHWAY, BARANGAY BUENAFLOR</h4>
                   <h4 class="text-two my-0">CITY OF TACURONG</h4>
                </div>
-               
+
                <div class="assignment">
                   <h5>Pinatunayan nito na si</h5>
                   <h6 class="text-two">This is to certifies that</h6>
                </div>
                <div  class="person">
-                  <h3 contenteditable="true">Kamisama Gaming</h3>
+                  <h3 contenteditable="true"  style="font-family: 'Edwardian Script ITC';font-weight:bolder; font-size:40px"></h3>
                </div>
                <h5 class="text-one"><span style="color:blue; font-weight:bold;">Learner Reference Number</span> (LRN)-<span contenteditable="true"></span></h5>
                <h5 class="text-lrn-detail my-0">ay kasiya-siyang nakatupad sa mga kinakailangan sa pagtatapos ng <span contenteditable="true" style="font-weight:bolder;">Senior High School</span></h5>
@@ -160,19 +157,22 @@
                   <span class="text-one my-0">Katibayan</span>
                   <h1 class="ribbon text-one my-0">Diploma</h1>
                </div>
-               <h5 class="text-lrn-detail my-0">Nilagdan sa Lungsod Tacurong, Pilipians nitong ikaw- <span contenteditable="true">26</span> ng <span contenteditable="true">Marso 2019</span>.</h5>
-               <h5 class="text-two my-0">Signed in the City of Tacurong on the<span contenteditable="true">26</span> day  of <span contenteditable="true">Marso 2019</span>.</h5>
-
+               <h5 class="text-lrn-detail my-0">Nilagdan sa Lungsod Tacurong, Pilipians nitong ika-<span contenteditable="true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+               ng <span contenteditable="true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+               .</h5>
+                              <h5 class="text-two my-0">Signed in the City of Tacurong on the<span contenteditable="true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                day  of <span contenteditable="true">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+               .</h5>
                <div class="row">
                      <div class="col-md-12 ">
                         <div class="float-left mt-3 mb-5 mr-5 pr-5 ">
-                           <u class="text-one">CRISLIE S. SUBALDO, LPT, MAT</u>
+                           <u class="text-one" contenteditable="true">CRISLIE S. SUBALDO, LPT, MAT</u>
                            <div class="text-center">
                               <p class="text-one mb-0">Principal</p>
                            </div>
                         </div>
                         <div class="float-right mt-3 mb-5 ">
-                           <u class="text-one">FEDERICO S. SENERES, JR.</u>
+                           <u class="text-one" contenteditable="true">FEDERICO S. SENERES, JR.</u>
                            <div class="text-center">
                               <p class="text-one mb-0">President</p>
                            </div>
@@ -185,49 +185,56 @@
             <button class="btn btn-primary" onclick="printDiploma()"> <i class="fa fa-print mr-2"></i>Print Certificate</button>
          </div>
       </div>
-      
+
    </div>
 </div>
 <?php include APPPATH . "views/templates/footer.php"; ?>
-<script>
- function printDiploma() {
-    var cardBody = document.querySelector('.card-body'); // Select the element with the card-body class
+<script type="text/javascript">
+   function printDiploma() {
+    var cardBody = document.querySelector('.card-body');
 
     if (cardBody) {
-        var initialDisplay = cardBody.style.display; // Save the initial display style
-        cardBody.style.display = 'block'; // Ensure the card-body is visible for printing
+        var initialDisplay = cardBody.style.display; 
+        cardBody.style.display = 'block'; 
+        cardBody.style.margin = 'auto'; 
 
         var elementsToHide = document.querySelectorAll('body > :not(.card-body)');
         elementsToHide.forEach(function(element) {
-            element.style.display = 'none'; // Hide all elements outside the card-body
+            element.style.display = 'none'; 
         });
 
-        // Create a temporary container and clone the card-body content
         var temporaryContainer = document.createElement('div');
         temporaryContainer.appendChild(cardBody.cloneNode(true));
 
         document.body.appendChild(temporaryContainer);
 
-        // Apply print-specific styles
         var style = document.createElement('style');
-        style.textContent = '@page { size: landscape; margin: 0mm; }'; // Landscape orientation for printing
+        style.textContent = `
+            @page { 
+                size: landscape; 
+                margin: 0mm; 
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        `; 
         temporaryContainer.appendChild(style);
 
-        // Trigger print
         window.print();
 
-        // Clean up
         temporaryContainer.remove();
 
-        // Restore initial display styles
         elementsToHide.forEach(function(element) {
-            element.style.display = ''; // Restore original display style
+            element.style.display = ''; 
         });
-        cardBody.style.display = initialDisplay; // Restore original display style for card-body
+        cardBody.style.display = initialDisplay; 
+        cardBody.style.margin = ''; 
     } else {
         console.error('Card-body element not found.');
     }
 }
 
 </script>
-

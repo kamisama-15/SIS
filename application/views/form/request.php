@@ -70,7 +70,7 @@
                      </div>
                      <div class="row">
                         <div class="form-group col-md-6">
-                           <label for="rq_rc_name" class="control-label">Receiver's Name</label>
+                           <label for="rq_rc_name" class="control-label">Name of Receiver</label>
                            <input type="text" class="form-control form-control-sm form-control-border rounded-0" id="rq_rc_name" name="rq_rc_name">
                         </div>
                         <div class="form-group col-md-6">
@@ -81,7 +81,7 @@
                         </div>
 
                         <div class="form-group col-md-6">
-                           <label for="rq_type" class="control-label">Relationship to the Student</label>
+                           <label for="rq_type" class="control-label">Relationship to Receiver</label>
                            <input type="text" class="form-control form-control-sm form-control-border rounded-0" id="rq_type" name="rq_type">
                         </div>
                      </div>
